@@ -346,6 +346,7 @@ footer {
 
 footer p {
     margin: 0;
+	text-size:5px;
 }
 
 ::-moz-selection {
@@ -370,4 +371,8 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+.spacing {
+	margin-bottom: 400px;
 }
