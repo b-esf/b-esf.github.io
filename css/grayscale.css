@@ -261,11 +261,23 @@ a:focus {
     padding-top: 100px;
 }
 
-.download-section {
+.projects-section {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    background: url(../img/projects-bg.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.contact-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(../img/contact-bg.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -284,7 +296,7 @@ a:focus {
         padding-top: 250px;
     }
 
-    .download-section {
+    .projects-section {
         padding: 100px 0;
     }
 
@@ -374,5 +386,5 @@ body {
 }
 
 .spacing {
-	margin-bottom: 400px;
+	margin-bottom: 500px;
 }
